@@ -1,0 +1,5 @@
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Compilerbly\bin\Debug\Compilerbly.dll
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Compilerbly\bin\Debug\Compilerbly.pdb
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Compilerbly\obj\Debug\Compilerbly.csprojResolveAssemblyReference.cache
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Compilerbly\obj\Debug\Compilerbly.dll
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Compilerbly\obj\Debug\Compilerbly.pdb

@@ -1,0 +1,8 @@
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Interpret\bin\Debug\Interpret.exe.config
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Interpret\bin\Debug\Interpret.exe
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Interpret\bin\Debug\Interpret.pdb
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Interpret\bin\Debug\Compilerbly.dll
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Interpret\bin\Debug\Compilerbly.pdb
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Interpret\obj\Debug\Interpret.csprojResolveAssemblyReference.cache
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Interpret\obj\Debug\Interpret.exe
+D:\BUAA_SOFT\编译大作业\PL0_Compiler\Interpret\obj\Debug\Interpret.pdb
