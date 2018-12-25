@@ -70,6 +70,7 @@ namespace PL0_Compiler
         //<程序> ::= <分程序>.
         public void program(List<symlist> lst)
         {
+
             Error er = compiler.error;
             subprogram(lst);
             if(sym==symlist.period)
@@ -99,6 +100,9 @@ namespace PL0_Compiler
         //<分程序>::=[<常量说明部分>][变量说明部分>][<过程说明部分>]<语句>
         public void subprogram(List<symlist> followlst)
         {
+            //int point = compiler.st.point;
+            //int pi = compiler.st.dx[point];
+            
             List<symlist> nextlst = new List<symlist>();
             symbol_table st = compiler.st;
             Pcode pcode =compiler.pc;
@@ -190,6 +194,20 @@ namespace PL0_Compiler
             pcode.gen("OPR", 0, 0);
             check(nextlst, new List<symlist>(), 8);
             level--;
+            int point = compiler.st.point;
+            if(level<point)
+            {
+                if (point > 0)
+                {
+                    int delnum = compiler.st.dx[point] - compiler.st.dx[point - 1];
+                    for (int i = 0; i < delnum; i++)
+                        compiler.st.stable.RemoveAt(compiler.st.stable.Count - 1);
+                    compiler.st.point--;
+                }
+            }
+ 
+            //compiler.st.point = point;
+            //compiler.st.dx[compiler.st.point] = pi;
         }
         //<常量定义> ::= <标识符>=<无符号整数>
         public void decconst()

@@ -46,10 +46,10 @@ namespace PL0_Compiler
             }
             else if (sa.level < point)
             {
-                int delnum = dx[point] - dx[point - 1];
-                for (int i = 0; i < delnum; i++)
-                    stable.RemoveAt(stable.Count - 1);
-                point--;
+                //int delnum = dx[point] - dx[point - 1];
+                //for (int i = 0; i < delnum; i++)
+                //    stable.RemoveAt(stable.Count - 1);
+                //point--;
             }
             dx[point]++;
             record re = new record();
